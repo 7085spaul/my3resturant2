@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor Feast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: aqua;">
+    <header>
+        <div class="header-container">
+            <h1>Flavor Feast</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="marquee">
+        <marquee>Welcome to Flavor Feast - Enjoy our delicious and diverse menu with a delightful dining experience!</marquee>
+    </section>
+
+    <section id="home" class="hero">
+        <div class="slider">
+            <img src="./Our Biryani Empire Expands! Introducing 3 new….jpg" alt="Delicious Food 1">
+            <img src="./Paneer tikka lovers.jpg" alt="Delicious Food 2">
+            <img src="./Premium Photo _ Hot and delicious burger closeup shot in center with fire and smoke in background.jpg" alt="Delicious Food 3">
+        </div>
+        <h2 style="color:orangered;">Welcome to Flavor Feast!</h2>
+        <p>Indulge in a wide variety of mouthwatering dishes that cater to every palate.</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <ul>
+                <li>
+                    <img src="./Vegan Vietnamese Spring Rolls - Veggiecurean.jpg" width="70">
+                    <div>
+                        <h4>Vegetarian Spring Rolls</h4>
+                        <p>Freshly made with a mix of vegetables and served with a tangy dipping sauce.</p>
+                        <p class="price">$8</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="Grilled Honey Lime Chicken Skewers_ Flavorful Delights for Memorial Day BBQ.jpg" width="70" alt="Non-Veg Starter">
+                    <div>
+                        <h4>Chicken Satay</h4>
+                        <p>Grilled chicken skewers marinated in a savory peanut sauce.</p>
+                        <p class="price">$10</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <ul>
+                <li>
+                    <img src="Veg Biryani.jpg" width="70" alt="Veg Biryani">
+                    <div>
+                        <h4>Vegetarian Biryani</h4>
+                        <p>Aromatic rice dish cooked with fresh vegetables and spices.</p>
+                        <p class="price">$15</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="BIRIYANI.jpg" width="70">
+                    <div>
+                        <h4>Chicken Biryani</h4>
+                        <p>Flavorful biryani with tender chicken pieces and a blend of spices.</p>
+                        <p class="price">$18</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <ul>
+                <li>
+                    <img src="Chocolate Lava Cakes.jpg" width="70" alt="Dessert">
+                    <div>
+                        <h4>Chocolate Lava Cake</h4>
+                        <p>Decadent chocolate cake with a molten center, served with vanilla ice cream.</p>
+                        <p class="price">$8</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Flavor Feast, we bring you a culinary journey filled with exquisite flavors and delightful experiences. Our menu is crafted with love, using the freshest ingredients to create unforgettable dishes.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@flavorfeast.com</p>
+        <p>Phone: (987) 654-3210</p>
+        <p>Address: 789 Culinary Street, Flavor Town, USA</p>
+    </section>
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+            <button type="submit" class="btn">Reserve Table</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flavor Feast. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
